@@ -15,8 +15,8 @@ THE SOFTWARE IS DISTRIBUTED IN THE HOPE THAT IT WILL BE USEFUL, BUT WITHOUT ANY 
 5. [Bugs, feature requests, etc](#bugs-feature-requests-etc)
 
 ## Requirements
-Install Python 2.7
-Install pynaoqi-2.1.4.13 32bit version
+- Install Python 2.7
+- Install pynaoqi-2.1.4.13 32bit version
 
 ## Installation
 - Clone the repository.
