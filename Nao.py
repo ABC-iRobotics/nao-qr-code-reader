@@ -12,7 +12,9 @@ memory=ALProxy("ALMemory", ROBOT_IP, 9559)
 # Query last data from ALMemory hundred times
 for i in range(100):
   data = memory.getData("BarcodeReader/BarcodeDetected")
+  barcode.subscribe("test_barcode")
   time.sleep(1)
+
   # If is for only use data if has same value
   if len(data) != 0:
     barcode = str(data[0])
